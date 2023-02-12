@@ -13,6 +13,9 @@
 		4093445A299982AF00FFF51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40934458299982AF00FFF51B /* Main.storyboard */; };
 		4093445C299982B200FFF51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4093445B299982B200FFF51B /* Assets.xcassets */; };
 		4093445F299982B200FFF51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4093445D299982B200FFF51B /* LaunchScreen.storyboard */; };
+		4093446729998B0100FFF51B /* island.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4093446629998B0100FFF51B /* island.jpeg */; };
+		4093446929998CEB00FFF51B /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093446829998CEB00FFF51B /* Quest.swift */; };
+		4093446B299990C200FFF51B /* QuestLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093446A299990C200FFF51B /* QuestLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4093445B299982B200FFF51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4093445E299982B200FFF51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40934460299982B200FFF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4093446629998B0100FFF51B /* island.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = island.jpeg; path = Assets.xcassets/island.jpeg; sourceTree = "<group>"; };
+		4093446829998CEB00FFF51B /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		4093446A299990C200FFF51B /* QuestLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		40934451299982AF00FFF51B /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				4093446629998B0100FFF51B /* island.jpeg */,
 				40934452299982AF00FFF51B /* AppDelegate.swift */,
 				40934454299982AF00FFF51B /* SceneDelegate.swift */,
-				40934456299982AF00FFF51B /* ViewController.swift */,
+				4093446C299990CF00FFF51B /* Model */,
+				4093446D299990E200FFF51B /* View */,
 				40934458299982AF00FFF51B /* Main.storyboard */,
+				40934456299982AF00FFF51B /* ViewController.swift */,
 				4093445B299982B200FFF51B /* Assets.xcassets */,
 				4093445D299982B200FFF51B /* LaunchScreen.storyboard */,
 				40934460299982B200FFF51B /* Info.plist */,
 			);
 			path = Assignment4;
+			sourceTree = "<group>";
+		};
+		4093446C299990CF00FFF51B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4093446829998CEB00FFF51B /* Quest.swift */,
+				4093446A299990C200FFF51B /* QuestLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4093446D299990E200FFF51B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +152,7 @@
 			files = (
 				4093445F299982B200FFF51B /* LaunchScreen.storyboard in Resources */,
 				4093445C299982B200FFF51B /* Assets.xcassets in Resources */,
+				4093446729998B0100FFF51B /* island.jpeg in Resources */,
 				4093445A299982AF00FFF51B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4093446929998CEB00FFF51B /* Quest.swift in Sources */,
 				40934457299982AF00FFF51B /* ViewController.swift in Sources */,
 				40934453299982AF00FFF51B /* AppDelegate.swift in Sources */,
+				4093446B299990C200FFF51B /* QuestLogic.swift in Sources */,
 				40934455299982AF00FFF51B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
