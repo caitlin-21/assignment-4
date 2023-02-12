@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Assignment4
 //
-//  Created by Sherry Johnson on 2/12/23.
+//  Created by Caitlin Johnson on 2/12/23.
 //
 
 import UIKit

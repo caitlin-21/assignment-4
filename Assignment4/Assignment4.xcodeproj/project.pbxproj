@@ -68,7 +68,6 @@
 				4093446C299990CF00FFF51B /* Model */,
 				4093446D299990E200FFF51B /* View */,
 				40934458299982AF00FFF51B /* Main.storyboard */,
-				40934456299982AF00FFF51B /* ViewController.swift */,
 				4093445B299982B200FFF51B /* Assets.xcassets */,
 				4093445D299982B200FFF51B /* LaunchScreen.storyboard */,
 				40934460299982B200FFF51B /* Info.plist */,
@@ -88,6 +87,7 @@
 		4093446D299990E200FFF51B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40934456299982AF00FFF51B /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
